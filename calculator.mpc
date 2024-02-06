@@ -1,0 +1,28 @@
+project (calculator) {
+  exename = calculator
+  install = .
+
+  specific (make, gnuace) {
+    compile_flags += -std=c++11 -Wall
+  }
+
+  Source_Files {
+    main.cpp
+    Calculator.cpp
+    Stack_Expr_Command_Factory.cpp
+    Add_Command.cpp
+    Divide_Command.cpp
+    Mod_Command.cpp
+    Multiply_Command.cpp
+    Num_Command.cpp
+    Open_Command.cpp
+    Subtract_Command.cpp
+  }
+
+  Template_Files {
+    Base_Array.inl
+    Base_Array.cpp
+    Stack.cpp
+    Array.cpp
+  }
+}
