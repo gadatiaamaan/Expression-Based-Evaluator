@@ -1,4 +1,4 @@
-# Expression Evaluator Program
+# Expression Based Evaluator Program
 
 ## Overview
 This program implements a basic expression evaluator in C++. It utilizes the Stack data structure implemented using the Array class to convert infix expressions to postfix notation and then evaluate them. The program also incorporates design patterns such as the Command Pattern for evaluating postfix expressions and the Abstract Factory Pattern for creating commands based on parsing the infix expression.
